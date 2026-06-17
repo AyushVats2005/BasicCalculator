@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #1e293b;
+    color: white;
+    line-height: 1.5;
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.options {
+    margin-right: auto;
+    padding: 10px;
+}
+
+.ham {
+    font-size: 20px;
+    background-color: black;
+    color: orange;
+    border:none;
+}
+
+.inputDisplay {
+    margin-left: auto;
+    padding: 40px 10px 0 0;
+    margin-top: 20px;
+    opacity: 0.6;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.outputDisplay {
+    margin-left: auto;
+    padding: 0 10px 0 0;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.numPad{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding:10px;
+}
+
+.numPad button {
+    font-size: 28px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+}
+
+.num-btn {
+    background: #2E2E32;
+    color: white;
+}
+
+.shadow-btn {
+    background: gray;
+}
+
+.orange-btn {
+    background: orange;
+}
