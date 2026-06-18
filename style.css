@@ -51,6 +51,7 @@ body {
     padding: 0 10px 0 0;
     font-weight: 500;
     font-size: 60px;
+    min-height: 1.5em; /* keeps the space reserved even when empty */
 }
 
 .numPad{
@@ -66,11 +67,11 @@ body {
     height: 80px;
     border-radius: 50px;
     border: none;
+    color: white;
 }
 
 .num-btn {
     background: #2E2E32;
-    color: white;
 }
 
 .shadow-btn {
